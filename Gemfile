@@ -6,7 +6,6 @@ gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'rake'
 gem 'require_all'
 gem 'sqlite3'
-gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'bcrypt'
@@ -18,3 +17,5 @@ group :test do
   gem 'rack-test'
   gem 'database_cleaner'
 end
+
+gem "dotenv", "~> 2.7"
